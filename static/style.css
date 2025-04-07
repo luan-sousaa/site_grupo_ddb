@@ -11,14 +11,36 @@ nav ul{
 
 nav ul li {
     margin: 0 15px;
+    margin-top: 20px;
+
 }
 nav ul li a {
-    color: darkslategrey;
+    color: white;
     text-decoration:none;
     font-size: 20px;
 }
+.botao{
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    transition: 0.3s ease;
+    font-size: 15px;
+}
 header{
-    height: 700px;
-    background-image: url("images/bernd-dittrich-u5UdTrr4nyA-unsplash.jpg");
+    height: 720px;
+    background-image: url("../images/ph-m-m-nh-0KnSD8tq8A0-unsplash.jpg");
     background-size: cover;
+    background-position: center;
+    h1{
+        color: white;
+        width: 60%;
+        margin: 0 100px;
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        margin-top: 100px;
+    }
 }
