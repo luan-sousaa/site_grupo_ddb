@@ -13,6 +13,17 @@
   font-weight: 400;
   font-style: normal;
 }
+.estonia-regular {
+  font-family: "Estonia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.bodoni-moda {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+}
 
 nav ul{
     display: flex;
@@ -26,9 +37,10 @@ nav ul li {
 
 }
 nav ul li a {
+    font-family: "Estonia", cursive;
     color: white;
     text-decoration:none;
-    font-size: 20px;
+    font-size: 35px;
 }
 .botao{
     border: 2px solid white;
@@ -37,7 +49,7 @@ nav ul li a {
     background: black;
     color: white;
     transition: 0.3s ease;
-    font-size: 15px;
+    font-size: 25px;
 }
 header{
     height: 720px;
@@ -45,6 +57,8 @@ header{
     background-size: cover;
     background-position: center;
     h1{
+        font-family: "Bodoni Moda", serif;
+        font-style: italic;
         color: white;
         width: 60%;
         margin: 0 100px;
@@ -56,11 +70,11 @@ header{
     }
 }
 #secao1{
-    height: 750px;
+    height: 700px;
     h1{
         font-family: "Carattere", cursive;
         margin-top: 30px;
-        font-size: 40px;
+        font-size: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -74,7 +88,7 @@ header{
         text-align: justify;
     }
 }
-.contexto{
+.contexto {
     display: flex;
     margin: 40px 5%;
     img{
@@ -83,4 +97,96 @@ header{
         border-radius: 40px;
     }
 }
+#secao2{
+    height: 500px;
+    h1{
+        font-family: "Carattere", cursive;
+        margin-top: 30px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    p{
+        font-family: "Charm", cursive;
+        font-size: 20px;
+        width: 1000px;
+        height: 560px;
+        align-items: center;
+        text-align: justify;
+    }
+}
+.Curiosidade{
+    display: flex;
+    margin: 90px 5%;
+    img{
+        margin: 0 60px;
+        width: 400px;
+        height: 300px;
+        border-radius: 40px;
+    }
+}
 
+#secao3{
+    height: 750px;
+    img{
+        opacity: 50%;
+    }
+    h1{
+        font-family: "Carattere", cursive;
+        margin-top: 30px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h2{
+        font-family: "Carattere", cursive;
+        margin-top: 30px;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    p{
+        font-family: "Charm", cursive;
+        font-size: 23px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 9%;
+    }
+
+}
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 10px 0 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.footer-links li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links li a:hover {
+  color: #fff;
+}
