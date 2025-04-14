@@ -13,11 +13,12 @@
   font-weight: 400;
   font-style: normal;
 }
-.estonia-regular {
-  font-family: "Estonia", cursive;
+.special-gothic-expanded-one-regular {
+  font-family: "Special Gothic Expanded One", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
 .bodoni-moda {
   font-family: "Bodoni Moda", serif;
   font-optical-sizing: auto;
@@ -37,10 +38,10 @@ nav ul li {
 
 }
 nav ul li a {
-    font-family: "Estonia", cursive;
+    font-family: "Special Gothic Expanded One";
     color: white;
-    text-decoration:none;
-    font-size: 35px;
+    font-size: 20px;
+    text-decoration: underline;
 }
 .botao{
     border: 2px solid white;
@@ -49,7 +50,8 @@ nav ul li a {
     background: black;
     color: white;
     transition: 0.3s ease;
-    font-size: 30px;
+    font-size: 20px;
+    text-decoration: none;
 }
 header{
     height: 720px;
