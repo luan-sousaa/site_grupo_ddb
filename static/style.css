@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    background-color: gainsboro;
+    background-image: url("../images/vecteezy_light-colored-antique-distressed-vintage-grunge-texture-with_39549771.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 .carattere-regular {
   font-family: "Carattere", cursive;
   font-weight: 400;
@@ -75,7 +79,8 @@ header{
     }
 }
 #secao1{
-    height: 700px;
+    height: 800px;
+
     h1{
         font-family: "Carattere", cursive;
         margin-top: 30px;
@@ -103,7 +108,8 @@ header{
     }
 }
 #secao2{
-    height: 500px;
+    height: 700px;
+
     h1{
         font-family: "Carattere", cursive;
         margin-top: 30px;
@@ -133,7 +139,8 @@ header{
 }
 
 #secao3{
-    height: 750px;
+    height: 780px;
+
     img{
         opacity: 50%;
     }
@@ -147,11 +154,12 @@ header{
     }
     h2{
         font-family: "Carattere", cursive;
-        margin-top: 30px;
         font-size: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 30px 9%;
+
     }
     p{
         font-family: "Charm", cursive;
@@ -177,11 +185,16 @@ header{
       flex-wrap: wrap;
       gap: 20px;
       margin-top: 30px;
+      font-family: "Carattere", cursive;
+    font-size: 20px;
     }
 
     .card {
-      background-color: gainsboro;
-      border-radius: 10px;
+      background-image: url("../images/vecteezy_light-colored-antique-distressed-vintage-grunge-texture-with_39549771.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
       padding: 20px;
       width: 300px;
       text-align: center;
