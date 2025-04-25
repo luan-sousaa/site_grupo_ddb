@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: gainsboro;
+}
 .carattere-regular {
   font-family: "Carattere", cursive;
   font-weight: 400;
@@ -177,11 +180,10 @@ header{
     }
 
     .card {
-      background-color: white;
-      border-radius: 8px;
+      background-color: gainsboro;
+      border-radius: 10px;
       padding: 20px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      width: 280px;
+      width: 300px;
       text-align: center;
     }
 
